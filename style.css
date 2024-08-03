@@ -99,3 +99,25 @@ body, html {
 .project-description p {
   margin: 0;
 }
+
+.items p {
+    margin: 5px 0;
+}
+
+.items a {
+    color: #A32C29;
+    text-decoration: none;
+}
+
+.items a:hover {
+    text-decoration: underline;
+}
+
+a, a:visited, a:focus {
+    color: #A32C29;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
