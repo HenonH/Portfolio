@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henon Hailu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-item" onclick="showPage('home')">home.</div>
+            <div class="nav-item" onclick="showPage('projects')">projects.</div>  
+            <div class="nav-item" onclick="showPage('contact')">contact.</div>                
+        </nav>
+        <div id="home" class="page active">
+            <div class="header">HENON HAILU</div>
+            <div class="subheader">mechatronics engineer</div>
+            <div class="content">
+                <p>I am Henon Hailu, an aspiring mechatronics engineer with a deep passion for math, physics, and e-vehicles! I am committed to promoting inclusivity and diversity in engineering.</p>
+            </div>
+        </div>
+        <div id="projects" class="page hidden">
+            <div class="header">MY PROJECTS</div>
+            <div class="content">
+                <div class="project">
+                    <div class="project-image">
+                        <img src="wheelchair.jpg" alt="Wheelchair Project">
+                    </div>
+                    <div class="project-description">
+                        <p>ESP32 Wi-Fi Joystick Project: An innovative project that involves receiving input from online joysticks over Wi-Fi using a single ESP32 module.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-description">
+                        <p>STEM Club Initiatives: Collaborating with fellow club members to develop projects that enhance inclusivity and diversity in STEM education.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="project3.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-description">
+                        <p>Python and Java Coding Workshops: Teaching coding to groups of up to 20 kids, focusing on debugging and explaining computer science topics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="page hidden">
+            <div class="header">CONTACT DETAILS</div>
+            <div class="items">
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/henon-hailu/">https://www.linkedin.com/in/henon-hailu/</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
