@@ -12,4 +12,4 @@ function showPage(pageId) {
 }
 
 // Default to show the home page
-showPage('home');
+showPage('projects');
